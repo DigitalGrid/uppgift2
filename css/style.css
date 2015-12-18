@@ -58,7 +58,8 @@ header h2 {
 }
 
 .summary {
-  margin-top: 30px;
+  margin-top: 60px;
+  margin-bottom: 30px;
   background-color: #0E1011;
 }
 
@@ -150,7 +151,7 @@ aside.sidebar {
   width: 25%;
   margin-right: 2%;*/
   background-color: rgba(13, 14, 16, 0.9);
-  padding-bottom: 20px;
+  padding-bottom: 80px;
   position: absolute;
   width: 25%;
   top: 0;
