@@ -1,13 +1,63 @@
 /* import */
 @import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,900,700);
 
-/* Basic */
+/* ====================
+  Basic 
+======================= */
 
 body {
   background-color: #111415;
   color: #5f6774;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
+h1, h2, h3 {
+  color: #CCC;
+  font-family: 'Titillium Web', sans-serif;
+  text-transform: uppercase;
+}
+
+
+/* ====================
+  Main 
+======================= */
+
+div.main {
+  clear: both;
+  /*outline: 4px solid green;*/
+}
+
+.summary, .preamble, .explanation, .participation, .benefits {
+  width: 52%;
+  float: right;
+  margin-right: 18%;
+  /*outline: 4px solid orange;*/
+}
+
+.summary {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  background-color: #0E1011;
+}
+
+.summary p {
+  font-size: 1.2em;
+  padding: 5px 50px; 
+}
+
+.requirements p, .requirements h3 {
+  width: 52%;
+  float: right;
+  margin-right: 18%;
+  /*outline: 4px solid green;*/
+}
+
+
+
+/* ====================
+  Header 
+======================= */
+
 
 header {
   text-align: center;
@@ -17,15 +67,8 @@ header {
   box-shadow: inset 0 0 0 1000px rgba(21,23,25,.2);
   font-family: 'Titillium Web', sans-serif;
   font-weight: 900;
-  /*margin-bottom: 20px;*/
   height: 800px;
   /*outline: 4px solid red;*/
-}
-
-h1, h2, h3 {
-  color: #CCC;
-  font-family: 'Titillium Web', sans-serif;
-  text-transform: uppercase;
 }
 
 header abbr[title], header acronym[title] {
@@ -50,40 +93,12 @@ header h2 {
   margin-top: 0;
 }
 
-.summary, .preamble, .explanation, .participation, .benefits {
-  width: 52%;
-  float: right;
-  /*outline: 4px solid orange;*/
-  margin-right: 18%;
-}
 
-.summary {
-  margin-top: 60px;
-  margin-bottom: 30px;
-  background-color: #0E1011;
-}
-
-.summary p {
-  font-size: 1.2em;
-  padding: 5px 50px; 
-}
-
-.requirements p, .requirements h3 {
-  width: 52%;
-  float: right;
-  /*outline: 4px solid green;*/
-  margin-right: 18%;
-}
-
-div.main {
-  /*outline: 4px solid green;*/
-  clear: both;
-}
-
-/* footer */
+/* ====================
+  Pre-Footer 
+======================= */
 
 .requirements p:last-child {
-  /*background-color: rgb(21, 23, 25);*/
   background-image: url(../img/mountain1.jpg);
   background-size: cover;
   background-position: center;
@@ -102,7 +117,11 @@ div.main {
   margin-bottom: 100px;
 }
 
-/* main footer */
+
+/* ====================
+  Main Footer 
+======================= */
+
 
 div.main footer {
   background-color: #0E1011;
@@ -140,23 +159,17 @@ div.main footer {
   content: url(../img/github.png);
 }
 
-
-/* Sidebar */
+/* ====================
+  Sidebar 
+======================= */
 
 aside.sidebar {
-  /*outline: 4px solid orange;*/ 
-  /*position: absolute;
-  right:0;
-  top:620px;
-  width: 25%;
-  margin-right: 2%;*/
   background-color: rgba(13, 14, 16, 0.9);
   padding-bottom: 80px;
   position: absolute;
   width: 25%;
   top: 0;
   left: 0;
-
 }
 
 aside.sidebar .wrapper:before {
@@ -194,7 +207,9 @@ aside.sidebar .design-name {
   text-transform: uppercase;
 }
 
-/* Links */
+/* ====================
+  Links 
+======================= */
 
 a {
   text-decoration: none;
@@ -212,13 +227,3 @@ a:hover {
   text-decoration: underline;
   color: #999;
 }
-
-a:active {
-
-}
-
-/* list items */
-
-
-
-
