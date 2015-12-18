@@ -17,6 +17,15 @@ h1, h2, h3 {
   text-transform: uppercase;
 }
 
+h3 {
+  margin-bottom:0;  
+}
+
+p {
+  margin-top:8px;
+  margin-bottom:12px;
+}
+
 
 /* ====================
   Main 
@@ -42,6 +51,8 @@ div.main {
 
 .summary p {
   font-size: 1.2em;
+  margin-top: 15px;
+  margin-bottom: 15px;
   padding: 5px 50px; 
 }
 
@@ -82,6 +93,7 @@ header h1, header h2 {
 }
 
 header h1 {
+  line-height: 100%;
   padding-top: 150px;
   margin-top: 0; 
   margin-bottom: 0px;
@@ -202,7 +214,7 @@ aside.sidebar a {
 
 aside.sidebar .design-name {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 0;
   font-size: 1.2em;
   text-transform: uppercase;
 }
