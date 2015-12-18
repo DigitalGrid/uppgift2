@@ -1,0 +1,166 @@
+/* import */
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,900,700);
+
+
+/* Basic */
+
+body {
+  background-color: #111415;
+  color: #5f6774;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+header {
+  text-align: center;
+  background-image: url(../img/green1.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 900;
+  margin-bottom: 20px;
+  height: 1000px;
+  /*outline: 4px solid red;*/
+}
+
+header abbr[title], header acronym[title] {
+  border-bottom-width: 0;
+}
+
+header h1, header h2 {
+  color: #FEFEFE;
+  margin-left: 25%;
+  text-shadow: 3px 3px 25px #555,
+               0 0 15px #222;
+}
+
+header h1 {
+  padding-top: 150px;
+  margin-top: 0; 
+  margin-bottom: 0px;
+  font-size: 4.5em;
+}
+
+header h2 {
+  font-size: 2em;
+  margin-top: 0;
+}
+
+.summary, .preamble, .explanation, .participation, .benefits {
+  width: 52%;
+  float: right;
+  /*outline: 4px solid orange;*/
+  margin-right: 18%;
+}
+
+.requirements p, .requirements h3 {
+  width: 52%;
+  float: right;
+  outline: 4px solid green;
+  margin-right: 18%;
+}
+
+.requirements p:last-child {
+  background-color: #151719;
+  clear: both;
+  float: none;
+  text-align: center;
+  padding: 20px;
+  width: auto;
+  margin: 0 auto;
+  /*outline: 4px solid pink;*/
+}
+
+div.main {
+  /*outline: 4px solid green;*/
+  clear: both;
+}
+
+div.main footer {
+  background-color: #0E1011;
+  height: 200px;
+  /*margin-top: 20px;*/
+  text-align: center;
+  outline: 4px solid orange;  
+  clear: both;
+}
+
+h1, h2, h3 {
+  color: #CCC;
+  font-family: 'Titillium Web', sans-serif;
+  text-transform: uppercase;
+}
+
+/* Sidebar */
+
+aside.sidebar {
+  /*outline: 4px solid orange;*/ 
+  /*position: absolute;
+  right:0;
+  top:620px;
+  width: 25%;
+  margin-right: 2%;*/
+  background-color: rgba(13, 14, 16, 0.9);
+  padding-bottom: 20px;
+  position: absolute;
+  width: 25%;
+  top: 0;
+  left: 0;
+
+}
+
+aside.sidebar ul {
+  list-style: none;
+  padding-left:0;
+}
+
+aside.sidebar li {
+  border-bottom: 1px solid #333;
+  margin: 15px 15%;
+  padding-bottom: 15px;
+}
+
+aside.sidebar h3 {
+  margin-top: 50px;
+  font-size: 1.5em;
+  margin-left: 15%;
+}
+
+aside.sidebar a {
+  font-family: 'Titillium Web', sans-serif; 
+}
+
+aside.sidebar .design-name {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+/* Links */
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #999;
+}
+
+a:visited {
+  color: #797979;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #999;
+}
+
+a:active {
+
+}
+
+/* list items */
+
+
+
+
