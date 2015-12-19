@@ -50,10 +50,10 @@ div.main {
 }
 
 .summary p {
-  font-size: 1.2em;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  padding: 5px 50px; 
+  font-size: 1.4em;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  padding: 2px 50px; 
 }
 
 .requirements p, .requirements h3 {
@@ -89,7 +89,7 @@ header abbr[title], header acronym[title] {
 header h1, header h2 {
   color: #FEFEFE;
   margin-left: 25%;
-  text-shadow: 2px 2px 15px #666;
+  text-shadow: 2px 2px 5px #666;
 }
 
 header h1 {
@@ -228,14 +228,22 @@ a {
 }
 
 a:link {
-  color: #999;
+  color: #AAA;
 }
 
 a:visited {
-  color: #797979;
+  color: #7c7c7c;
 }
 
 a:hover {
   text-decoration: underline;
   color: #999;
+}
+
+.summary a {
+  text-transform: uppercase; 
+}
+
+.requirements p:last-child a {
+  text-transform: uppercase;
 }
