@@ -89,7 +89,7 @@ header abbr[title], header acronym[title] {
 header h1, header h2 {
   color: #FEFEFE;
   margin-left: 25%;
-  text-shadow: 2px 2px 5px #666;
+  text-shadow: 2px 2px 15px #333;
 }
 
 header h1 {
